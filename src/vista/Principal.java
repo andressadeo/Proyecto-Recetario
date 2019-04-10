@@ -1,5 +1,5 @@
 package vista;
-
+import modelo.Menu;
 import javax.swing.JFrame;
 import java.util.Scanner;
 public class Principal {
