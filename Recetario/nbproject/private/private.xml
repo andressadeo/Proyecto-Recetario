@@ -5,7 +5,10 @@
         <group>
             <file>file:/C:/Users/DUARTE%20MENDEZ/Documents/Proyectos/Recetario/src/vista/Principal.java</file>
             <file>file:/C:/Users/DUARTE%20MENDEZ/Documents/Proyectos/Recetario/src/modelo/Recetas.java</file>
-            <file>file:/C:/Users/DUARTE%20MENDEZ/Documents/Proyectos/Recetario/src/modelo/Menu.java</file>
+            <file>file:/C:/Users/DUARTE%20MENDEZ/Documents/Proyectos/Recetario/src/controlador/LogicaUsuario.java</file>
+            <file>file:/C:/Users/DUARTE%20MENDEZ/Documents/Proyectos/Recetario/src/modelo/Usuario.java</file>
+            <file>file:/C:/Users/DUARTE%20MENDEZ/Documents/Proyectos/Recetario/src/controlador/LogicaReceta.java</file>
+            <file>file:/C:/Users/DUARTE%20MENDEZ/Documents/Proyectos/Recetario/src/vista/Menu.java</file>
         </group>
     </open-files>
 </project-private>

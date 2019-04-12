@@ -1,27 +1,35 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package modelo;
-
-/**
- *
- * @author DUARTE MENDEZ
- */
+import java.util.List;
 public class Recetas {
-    public Recetas(){        
+    private String nombrereceta;
+    private String ingredientes;
+    private List <Recetas> clases;
+
+    public Recetas() {
     }
-    public void Crear(){
-        
+
+    public Recetas(String nombrereceta, String ingredientes) {
+        this.nombrereceta = nombrereceta;
+        this.ingredientes = ingredientes;
     }
-    public void Editar(){
-        
+
+    public String getNombrereceta() {
+        return nombrereceta;
     }
-    public void favoritos(){
-        
+
+    public void setNombrereceta(String nombrereceta) {
+        this.nombrereceta = nombrereceta;
     }
-    public void misrecetas(){
-        
+
+    public String getIngredientes() {
+        return ingredientes;
     }
+
+    public void setIngredientes(String ingredientes) {
+        this.ingredientes = ingredientes;
+    }
+    public String toString() {
+        return "Recetas{" + "nombrereceta=" + nombrereceta + ", ingredientes=" + ingredientes + '}';
+    }
+    
 }
